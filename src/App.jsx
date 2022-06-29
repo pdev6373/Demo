@@ -12,11 +12,11 @@ function App() {
 
   return (
     <div className="App">
-      {!hasSignedUp && !hasLoggedIn && (
+      {/* {!hasSignedUp && !hasLoggedIn && (
         <Signup setHasSignedUp={setHasSignedUp} />
       )}
       {hasSignedUp && !hasLoggedIn && <Login setHasLoggedIn={setHasLoggedIn} />}
-      {hasLoggedIn && hasSignedUp && <MainPage />}
+      {hasLoggedIn && hasSignedUp && <MainPage />} */}
     </div>
   );
 }
